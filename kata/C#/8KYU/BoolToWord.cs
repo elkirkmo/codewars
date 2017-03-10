@@ -5,10 +5,6 @@ public static class Kata
 {
   public static string boolToWord(bool word)
   {
-  	if (!word)
-    {
-    	return "No";
-    }
-  	return "Yes";
+  	return word ? "Yes" : "No";
   }
 }

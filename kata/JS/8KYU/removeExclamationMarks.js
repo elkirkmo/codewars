@@ -1,0 +1,1 @@
+var removeExclamationMarks = s => s.replace(/!/g, '');

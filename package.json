@@ -20,5 +20,10 @@
     "coffeescript": "^1.12.4",
     "gulp": "^3.9.1",
     "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0"
   }
 }

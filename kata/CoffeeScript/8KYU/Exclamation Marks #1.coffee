@@ -1,0 +1,1 @@
+remove=(s)-> if s.endsWith "!" then s.substr(0,s.length-1) else s 

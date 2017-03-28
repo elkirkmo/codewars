@@ -1,12 +1,10 @@
 function formatDuration (seconds) {
-  console.log(seconds)
   if (seconds === 0)
     return 'now';
   let years =0, months=0, days=0, hours=0, minutes=0, secs = 0;  
   while (seconds > 59) {
     minutes++
     seconds -= 60
-   
   }
    secs = seconds
    while (minutes > 59) {
@@ -27,7 +25,6 @@ function formatDuration (seconds) {
      nums[v] === 0 ? '' : str += nums[v] + " "+(nums[v] > 1 ? v : v.replace(/s$/g,"")) + ", ";
    }
    str = str.trim().replace(/,$/g,"");
-   console.log(str.indexOf(',') > -1)
    if (str.indexOf(',') > -1 ){
      return str.replace(/,([^,]*)$/,'\ and$1');
    } else 

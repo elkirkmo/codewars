@@ -1,6 +1,2 @@
-const anagrams = (word, words) => {
-  return words.filter((item) => {
-    return item.split('').sort().join('') === word.split('').sort().join('');
-  });
-};
-a
+const anagrams = (word, words) => words.filter(item => item.split('').sort().join('') === word.split('').sort().join(''));
+

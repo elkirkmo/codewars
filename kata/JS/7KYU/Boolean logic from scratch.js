@@ -4,7 +4,6 @@ const or = (a, b) => {
   } else if (b) {
     return true;
   }
-  
   return false;
 };
 
@@ -16,6 +15,5 @@ const xor = (a, b) => {
   } else if (b) {
     return true;
   }
-  
   return false;
 };

@@ -11,12 +11,6 @@ function mixFruit (arr) {
     mango: 7,
   };
   let sum = 0;
-  for (const k in a) {
-    if (FRUIT[a[k]] !== undefined) {
-      sum += FRUIT[a[k]];
-    } else {
-      sum += 9;
-    }
-  }
+  a.forEach(c => FRUIT[c] !== undefined ? sum += FRUIT[c] : sum += 9);
   return Math.round(sum / arr.length);
 }

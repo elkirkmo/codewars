@@ -12,3 +12,9 @@ function isAlt(word) {
   }
   return true;
 }
+
+
+/*
+Better version
+!/[aeiou]{2}|[^aeiou]{2}/.test(word)
+*/
